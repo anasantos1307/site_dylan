@@ -27,3 +27,11 @@ p{
     text-align: justify;
     text-indent: 40px;
 }
+
+.parag_filmes > p{
+    font-size: 2em;
+}
+
+.fundo_diferente{
+    background-image: linear-gradient(to right, #E0FFFF, #000000);
+}
