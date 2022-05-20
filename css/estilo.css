@@ -9,6 +9,10 @@ body{
     width: 45%;
 }
 
+.menu{
+    padding: 1.5%;
+}
+
   figure{
       text-align: center;
 }
@@ -20,12 +24,14 @@ body{
 
 h1{
     text-align: center;
+    font-size: 2em;
 }
 
 p{
     font-size: 2rem;
     text-align: justify;
     text-indent: 40px;
+    line-height: 1.5;
 }
 
 .parag_filmes > p{
@@ -34,4 +40,8 @@ p{
 
 .fundo_diferente{
     background-image: linear-gradient(to right, #E0FFFF, #000000);
+}
+
+html{
+    scroll-behavior: smooth;
 }
