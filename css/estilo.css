@@ -7,10 +7,22 @@ body{
  }
  .img_corpo{
     width: 45%;
+    margin-top: 2%;
 }
 
-.menu{
+.menu, footer{
     padding: 1.5%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.itens_menu{
+    line-height: 1.5;
+    text-align: center;
 }
 
   figure{
@@ -44,4 +56,46 @@ p{
 
 html{
     scroll-behavior: smooth;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.itens_menu a:link{
+    color: rgb(0, 0, 0);
+}
+
+.itens_menu a:visited{
+    color: rgb(9, 255, 0);
+}
+
+.itens_menu a:hover{
+    color: rgb(255, 7, 7);
+}
+
+.itens_menu a:active{
+    color: rgb(17, 73, 243);
+}
+
+.container a:link{
+    color: black;
+}
+
+.container a:visited{
+    color: rgb(9, 255, 0);
+}
+
+.container a:hover{
+    color: rgb(255, 7, 7);
+}
+
+.container a:active{
+    color: rgb(17, 73, 243);
+}
+
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
