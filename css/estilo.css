@@ -3,10 +3,10 @@ body{
 }
 
  .img_topo{
-     width: 40%;
+     width: 30%;
  }
  .img_corpo{
-    width: 45%;
+    width: 40%;
     margin-top: 2%;
 }
 
@@ -98,4 +98,25 @@ footer p{
 section{
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+.escondido{
+    display: none;
+}
+
+.esquerda1{
+    float: left;
+    width: 13%;
+    margin-right: 10px;
+}
+
+.direita{
+    float: right;
+    width: 13%;
+    margin-left: 10px;
+}
+
+.logo_filme{
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
