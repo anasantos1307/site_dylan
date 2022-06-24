@@ -51,7 +51,7 @@ p{
 }
 
 .fundo_diferente{
-    background-image: linear-gradient(to right, #E0FFFF, #000000);
+    background-image: linear-gradient(to right, #E0FFFF, #362f2f);
 }
 
 html{
@@ -68,11 +68,11 @@ footer p{
 }
 
 .itens_menu a:visited{
-    color: rgb(64, 156, 61);
+    color: rgb(20, 145, 124);
 }
 
 .itens_menu a:hover{
-    color: rgb(255, 7, 7);
+    color: rgb(17, 51, 78);
 }
 
 .itens_menu a:active{
@@ -84,11 +84,11 @@ footer p{
 }
 
 .container a:visited{
-    color: rgb(64, 156, 61);
+    color: rgb(20, 145, 124);
 }
 
 .container a:hover{
-    color: rgb(255, 7, 7);
+    color: rgb(17, 51, 78);
 }
 
 .container a:active{
@@ -119,4 +119,23 @@ section{
 .logo_filme{
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+.botao{
+    width: 150px;
+    height: 40px;
+    margin: auto;
+    padding: 0.2%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.botao a:link{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
 }
