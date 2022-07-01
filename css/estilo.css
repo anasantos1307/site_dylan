@@ -51,7 +51,7 @@ p{
 }
 
 .fundo_diferente{
-    background-image: linear-gradient(to right, #E0FFFF, #362f2f);
+    background-image: linear-gradient(to right, #8cadad, #5a6b88);
 }
 
 html{
@@ -64,11 +64,11 @@ footer p{
 }
 
 .itens_menu a:link{
-    color: rgb(0, 0, 0);
+    color: rgb(19, 78, 126);
 }
 
 .itens_menu a:visited{
-    color: rgb(20, 145, 124);
+    color: rgb(19, 122, 105);
 }
 
 .itens_menu a:hover{
@@ -80,11 +80,11 @@ footer p{
 }
 
 .container a:link{
-    color: black;
+    color: rgb(40, 83, 163);
 }
 
 .container a:visited{
-    color: rgb(20, 145, 124);
+    color: rgb(19, 122, 105);
 }
 
 .container a:hover{
@@ -138,4 +138,29 @@ section{
 
 a{
     text-decoration: none;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    font-size: 1.5em;
+}
+
+td,th{
+    border: 5px groove #5e686e;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+table a:link{
+    color: blue;
+
+}
+table a:visited{
+    color: blue;
+
 }
