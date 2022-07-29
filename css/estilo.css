@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Uchen-Regular;
+    src: url('../fonts/Uchen-Regular.ttf');
+}
+
 body{
     background-color: #E0FFFF;
 }
@@ -13,6 +18,7 @@ body{
 .menu, footer{
     padding: 1.5%;
     background-color: rgba(0, 0, 0, 0.2);
+    font-family: 'Uchen-Regular'    ;
 }
 
 .logo{
@@ -37,6 +43,7 @@ body{
 h1{
     text-align: center;
     font-size: 2em;
+    font-family: 'Bree Serif', serif;
 }
 
 p{
@@ -44,6 +51,7 @@ p{
     text-align: justify;
     text-indent: 40px;
     line-height: 1.5;
+    font-family: 'Alegreya', serif;
 }
 
 .parag_filmes > p{
