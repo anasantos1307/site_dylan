@@ -173,3 +173,22 @@ table a:visited{
     color: blue;
 
 }
+
+.borda{
+    padding: 5%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 1%;
+}
+
+.col-25{
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75{
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
