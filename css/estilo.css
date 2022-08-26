@@ -204,6 +204,7 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     border: 1px solid #000000;
     border-radius: 8px;
     resize: vertical;
+    font-family: 'Bree Serif', serif;
 }
 
 input[type=submit] {
@@ -214,10 +215,12 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     float: right;
+    font-family: 'Bree Serif', serif;
 }
 
 input[type=submit]:hover{
     background-color: #26292b;
+    font-family: 'Bree Serif', serif;
 }
 
 .row::after{
