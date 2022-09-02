@@ -7,6 +7,24 @@ body{
     background-color: #E0FFFF;
 }
 
+header{
+    top: 0;
+    right: 0;
+    left: 0;
+    position: relative;
+    background-color: #E0FFFF;
+    padding: 1.5%;
+    font-family: 'Uchen-Regular', serif;
+}
+
+.fixo{
+    position: fixed;
+}
+
+.banner{
+    margin-top: 20%;
+}
+
  .img_topo{
      width: 30%;
  }
@@ -15,7 +33,7 @@ body{
     margin-top: 2%;
 }
 
-.menu, footer{
+.footer{
     padding: 1.5%;
     background-color: rgba(0, 0, 0, 0.2);
     font-family: 'Uchen-Regular', serif;
