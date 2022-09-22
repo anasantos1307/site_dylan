@@ -25,6 +25,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
  .img_topo{
@@ -35,15 +36,14 @@ header{
     margin-top: 2%;
 }
 
-.footer{
+footer{
     padding: 1.5%;
     background-color: rgba(0, 0, 0, 0.2);
     font-family: 'Uchen-Regular', serif;
 }
 
-.logo{
-    padding-top: 1%;
-    padding-bottom: 1%;
+.logo_img{
+    width: 35%;
 }
 
 .itens_menu{
@@ -79,7 +79,7 @@ p{
 }
 
 .fundo_diferente{
-    background-image: linear-gradient(to right, #8cadad, #5a6b88);
+    background-image: linear-gradient(to right, #E0FFFF, #95b1b1);
 }
 
 html{
@@ -89,6 +89,10 @@ html{
 footer p{
     text-align: center;
     font-size: 1.4em;
+}
+
+.itens_menu a{
+    font-size: 1.2em;
 }
 
 .itens_menu a:link{
@@ -101,6 +105,9 @@ footer p{
 
 .itens_menu a:hover{
     color: rgb(17, 51, 78);
+    padding: 0.8%;
+    background-color:  rgba(100, 129, 215, 0.5);
+    border-radius: 5%;
 }
 
 .itens_menu a:active{
@@ -175,7 +182,8 @@ table{
 }
 
 th{
-    font-size: 1.5em;  
+    font-size: 1.5em;
+    font-weight: bolder;  
 }
 
 td,th{
@@ -183,6 +191,10 @@ td,th{
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
+}
+
+td{
+    padding-bottom: 2%;
 }
 
 table a:link{
@@ -195,15 +207,17 @@ table a:visited{
 }
 
 .borda{
-    padding: 5%;
-    border-radius: 25px;
     background-color: rgba(0, 0, 0, 0.2);
+    padding: 45px;
+    border-radius: 25px;
     margin-top: 1%;
     box-sizing: border-box;
 }
 
 label{
     padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: 'Bree Serif', serif;
 }
 
 .col-25{
@@ -213,13 +227,19 @@ label{
 }
 
 .col-75{
-    float: left;
     width: 75%;
+    float: left;
     margin-top: 6px;
 }
 
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 input[type=text], select, textarea, input[type=tel], input[type=email] {
-    width: 96%;
+    width: 93%;
     padding: 7px;
     border: 1px solid #000000;
     border-radius: 8px;
@@ -241,16 +261,11 @@ input[type=submit] {
 input[type=submit]:hover{
     background-color: #26292b;
     font-family: 'Bree Serif', serif;
+    font-weight: bolder;
 }
 
-.row::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.rowb{
-    margin-top: 2%;
+.rowbotao{
+    margin-top: 3%;
 }
 
 @media screen and (max-width: 600px) {
@@ -262,6 +277,16 @@ input[type=submit]:hover{
     
     .banner{
         margin-top: 50%;
+    }
+
+    .logo{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-align: center;
+    }
+
+    .descer{
+        margin-top: 60%;
     }
 
 }
@@ -288,5 +313,16 @@ input[type=submit]:hover{
 
      .banner{
         margin-top: 8%;
+    }
+
+    .logo{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-align: left;
+        width: 50%;
+    }
+
+    .descer{
+        margin-top: 10%;
     }
 }
