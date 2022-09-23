@@ -44,6 +44,7 @@ footer{
 
 .logo_img{
     width: 35%;
+    padding-left: 5%;
 }
 
 .itens_menu{
@@ -64,6 +65,7 @@ h1{
     text-align: center;
     font-size: 2em;
     font-family: 'Bree Serif', serif;
+    padding-top: 1%;
 }
 
 p{
@@ -149,11 +151,6 @@ section{
     float: right;
     width: 13%;
     margin-left: 10px;
-}
-
-.logo_filme{
-    padding-top: 1%;
-    padding-bottom: 1%;
 }
 
 .botao{
@@ -289,6 +286,10 @@ input[type=submit]:hover{
         margin-top: 60%;
     }
 
+    .logo_img{
+        width: 35%;
+    }
+
 }
 
 @media screen and (min-width: 601px) {
@@ -324,5 +325,10 @@ input[type=submit]:hover{
 
     .descer{
         margin-top: 10%;
+    }
+
+    .logo_img{
+        width: 35%;
+        padding-left: 5%;
     }
 }
